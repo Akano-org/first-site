@@ -4,6 +4,10 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: darkgrayh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 header{
     display: flex;
@@ -36,8 +40,8 @@ header{
 }
 .links li {
     display: inline-block;
-    width: 319px;
-    padding-left: 111px;
+    width: 276px;
+    padding-left: 90px;
     font-size: 37px;
     text-decoration: none;
 }
@@ -46,4 +50,58 @@ header{
 }
 a {
     text-decoration: none;
+}
+
+main {
+   
+    min-height: auto;
+    flex: 1;
+}
+main{
+    background: mistyrose;
+    
+}
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+}
+.media-link{
+    width: 100px;
+    height: 36px;
+}
+
+.links.ul{
+    display: flex;
+    width: 1272px;
+    padding-right: 0px;
+    padding-left: 0;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+img.home-img{
+    max-width: 414px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+section.container{
+    max-width: 1134px;
+    margin: 80px auto 20px;
+}
+section.project{
+    max-width: 1205px;
+    margin: 40px auto 159px;
+}
+img {
+    float: left;
+    margin-right: 86px;
+    max-width: 304px;
 }
