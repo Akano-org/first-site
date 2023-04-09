@@ -1,7 +1,7 @@
 # Hi, I'm AbdouL! 👋
 A computer science student and a future grad on web development from fullstack academy
 
-# My First personnal site
+# My First personal site
 This project is my first personnal site
 
 
