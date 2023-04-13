@@ -29,7 +29,14 @@ header{
     width: 100%;
     font-size: 34px;
 }
+.links.ul{
+    padding-left: 0;
+}
+.links.ul li a{
+    text-decoration: none;
+    padding-left: 80px;
 
+}
 .links {
     display: flex;
     flex-direction: row;
@@ -40,17 +47,16 @@ header{
 }
 .links li {
     display: inline-block;
-    width: 276px;
-    padding-left: 90px;
+    width: 236px;
+    padding-left: 0px;
     font-size: 37px;
     text-decoration: none;
 }
+
 .links li :hover{
     color: blue;
 }
-a {
-    text-decoration: none;
-}
+
 
 main {
    
