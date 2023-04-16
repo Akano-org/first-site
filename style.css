@@ -129,3 +129,13 @@ ul.ion li {
 ul.ion li a{
     color: #333;
 }
+.contact{
+    background: #101010;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
