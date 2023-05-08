@@ -2,7 +2,7 @@
 A computer science student and a future grad on web development from fullstack academy
 
 # My First personal site
-This project is my first personnal site
+This project is my first personnal site, the link is: https://ubiquitous-cactus-c025ba.netlify.app/
 
 
 
